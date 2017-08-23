@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{37C6ABB2-E723-4031-8136-14DF704A0195}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>EjemploDatasetSQL.My.MyApplication</StartupObject>
+    <RootNamespace>EjemploDatasetSQL</RootNamespace>
+    <AssemblyName>EjemploDatasetSQL</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>EjemploDatasetSQL.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>EjemploDatasetSQL.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon_sisplaepro.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=6.9.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Copia del sistema\dashboard\bin\Debug\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controlador\Proyecto\proyecto_control.vb" />
+    <Compile Include="Controlador\Registro\cargo_control.vb" />
+    <Compile Include="Controlador\Registro\cliente_control.vb" />
+    <Compile Include="Controlador\Registro\material_control.vb" />
+    <Compile Include="Controlador\Registro\persona_control.vb" />
+    <Compile Include="Controlador\Registro\region_control.vb" />
+    <Compile Include="Controlador\Registro\unidadMedida_control.vb" />
+    <Compile Include="Controlador\Validaciones\Guardar_Control.vb" />
+    <Compile Include="Controlador\Validaciones\Validaciones_Generales_Controls.vb" />
+    <Compile Include="modelo\Proyecto\proyecto_model.vb" />
+    <Compile Include="modelo\Registro\cliente_model.vb" />
+    <Compile Include="modelo\Validaciones\cliente_Validacion_model.vb" />
+    <Compile Include="modelo\Validaciones\persona_Validacion_model.vb" />
+    <Compile Include="modelo\Validaciones\telefono_Validacion_model.vb" />
+    <Compile Include="modelo\Validaciones\Validaciones_Generales_models.vb" />
+    <Compile Include="Vistas\Proyecto\vw_empleadoDetalle.Designer.vb">
+      <DependentUpon>vw_empleadoDetalle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Proyecto\vw_empleadoDetalle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modelo\Registro\cargo_model.vb" />
+    <Compile Include="modelo\dbo_coociDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbo_coociDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="modelo\dbo_coociDataSet.vb">
+      <DependentUpon>dbo_coociDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="modelo\db_mysql.vb" />
+    <Compile Include="modelo\Registro\material_model.vb" />
+    <Compile Include="modelo\Registro\persona_model.vb" />
+    <Compile Include="modelo\Registro\region_model.vb" />
+    <Compile Include="modelo\Registro\unidadMedida_model.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Vistas\Estadistica\vw_Graficos_I.Designer.vb">
+      <DependentUpon>vw_Graficos_I.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Estadistica\vw_Graficos_I.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\menus\Dashboard.Designer.vb">
+      <DependentUpon>Dashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\menus\Dashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Proyecto\vw_proyecto.Designer.vb">
+      <DependentUpon>vw_proyecto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Proyecto\vw_proyecto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Registro\vws_telefono.Designer.vb">
+      <DependentUpon>vws_telefono.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Registro\vws_telefono.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Registro\vw_cargo.Designer.vb">
+      <DependentUpon>vw_cargo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Registro\vw_cargo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Registro\vw_cliente.designer.vb">
+      <DependentUpon>vw_cliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Registro\vw_cliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Registro\vw_cliente2.Designer.vb">
+      <DependentUpon>vw_cliente2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Registro\vw_cliente2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Registro\vw_material.Designer.vb">
+      <DependentUpon>vw_material.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Registro\vw_material.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Registro\vw_undmedida.Designer.vb">
+      <DependentUpon>vw_undmedida.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Registro\vw_undmedida.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Vistas\Proyecto\vw_empleadoDetalle.resx">
+      <DependentUpon>vw_empleadoDetalle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Estadistica\vw_Graficos_I.resx">
+      <DependentUpon>vw_Graficos_I.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\menus\Dashboard.resx">
+      <DependentUpon>Dashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Proyecto\vw_proyecto.resx">
+      <DependentUpon>vw_proyecto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Registro\vws_telefono.resx">
+      <DependentUpon>vws_telefono.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Registro\vw_cargo.resx">
+      <DependentUpon>vw_cargo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Registro\vw_cliente.resx">
+      <DependentUpon>vw_cliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Registro\vw_cliente2.resx">
+      <DependentUpon>vw_cliente2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Registro\vw_material.resx">
+      <DependentUpon>vw_material.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Registro\vw_undmedida.resx">
+      <DependentUpon>vw_undmedida.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="modelo\dbo_coociDataSet.xsc">
+      <DependentUpon>dbo_coociDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="modelo\dbo_coociDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbo_coociDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="modelo\dbo_coociDataSet.xss">
+      <DependentUpon>dbo_coociDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="modelo\model.cd" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon_sisplaepro.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

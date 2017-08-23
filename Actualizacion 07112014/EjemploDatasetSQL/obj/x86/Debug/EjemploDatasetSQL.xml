@@ -1,0 +1,396 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EjemploDatasetSQL
+</name>
+</assembly>
+<members>
+<member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_cargoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_clienteDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_companiaTelefonicaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_detalleClienteDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_detalleEmpleadoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_detalleEntradaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_detalleSalidaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_empleadoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_EntradaMaterialDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_materialesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_montoComplementoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_personaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_proveedorDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_ProyectosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_regionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_retrasoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_SalidaMaterialDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_seguimientoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_telefonoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_unidMedidaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.vw_datosMaterialDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_cargoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_clienteRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_companiaTelefonicaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_detalleClienteRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_detalleEmpleadoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_detalleEntradaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_detalleSalidaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_empleadoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_EntradaMaterialRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_materialesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_montoComplementoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_personaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_proveedorRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_ProyectosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_regionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_retrasoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_SalidaMaterialRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_seguimientoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_telefonoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_unidMedidaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.vw_datosMaterialRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_cargoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_clienteRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_companiaTelefonicaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_detalleClienteRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_detalleEmpleadoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_detalleEntradaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_detalleSalidaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_empleadoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_EntradaMaterialRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_materialesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_montoComplementoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_personaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_proveedorRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_ProyectosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_regionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_retrasoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_SalidaMaterialRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_seguimientoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_telefonoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.tbl_unidMedidaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet.vw_datosMaterialRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSetTableAdapters.tbl_cargoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSetTableAdapters.tbl_clienteTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSetTableAdapters.tbl_companiaTelefonicaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSetTableAdapters.tbl_detalleClienteTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSetTableAdapters.tbl_detalleEmpleadoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSetTableAdapters.tbl_detalleEntradaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSetTableAdapters.tbl_detalleSalidaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSetTableAdapters.tbl_empleadoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSetTableAdapters.tbl_EntradaMaterialTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSetTableAdapters.tbl_materialesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSetTableAdapters.tbl_montoComplementoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSetTableAdapters.tbl_personaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSetTableAdapters.tbl_proveedorTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSetTableAdapters.tbl_ProyectosTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSetTableAdapters.tbl_regionTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSetTableAdapters.tbl_retrasoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSetTableAdapters.tbl_SalidaMaterialTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSetTableAdapters.tbl_seguimientoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSetTableAdapters.tbl_telefonoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSetTableAdapters.tbl_unidMedidaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSetTableAdapters.vw_datosMaterialTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:EjemploDatasetSQL.dbo_coociDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(EjemploDatasetSQL.dbo_coociDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:EjemploDatasetSQL.dbo_coociDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(EjemploDatasetSQL.dbo_coociDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:EjemploDatasetSQL.dbo_coociDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(EjemploDatasetSQL.dbo_coociDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:EjemploDatasetSQL.dbo_coociDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:EjemploDatasetSQL.dbo_coociDataSetTableAdapters.TableAdapterManager.UpdateAll(EjemploDatasetSQL.dbo_coociDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:EjemploDatasetSQL.dbo_coociDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:EjemploDatasetSQL.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:EjemploDatasetSQL.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:EjemploDatasetSQL.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

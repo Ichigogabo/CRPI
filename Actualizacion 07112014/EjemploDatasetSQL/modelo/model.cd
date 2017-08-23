@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EjemploDatasetSQL.persona_model">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAgARCAAAEAAoAQMAAAAAIQIAAAAIAABA=</HashCode>
+      <FileName>modelo\Registro\persona_model.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EjemploDatasetSQL.cliente_model">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAMACgAAAAACAAgAAIMAAAAAIACAEgEAAgBA=</HashCode>
+      <FileName>modelo\Registro\cliente_model.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EjemploDatasetSQL.proyecto_model">
+    <Position X="5.5" Y="0.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>gAAEAQCAEAARgCQEABAAAAAAAMAMAAAAECAAAAIBABA=</HashCode>
+      <FileName>modelo\Proyecto\proyecto_model.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

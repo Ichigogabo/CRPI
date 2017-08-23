@@ -1,0 +1,31 @@
+C:\Users\toshiba\AppData\Local\Temporary Projects\EjemploDatasetSQL\bin\Debug\EjemploDatasetSQL.exe.config
+C:\Users\toshiba\AppData\Local\Temporary Projects\EjemploDatasetSQL\bin\Debug\EjemploDatasetSQL.exe
+C:\Users\toshiba\AppData\Local\Temporary Projects\EjemploDatasetSQL\bin\Debug\EjemploDatasetSQL.pdb
+C:\Users\toshiba\AppData\Local\Temporary Projects\EjemploDatasetSQL\bin\Debug\EjemploDatasetSQL.xml
+C:\Users\toshiba\AppData\Local\Temporary Projects\EjemploDatasetSQL\obj\x86\Debug\EjemploDatasetSQL.Form1.resources
+C:\Users\toshiba\AppData\Local\Temporary Projects\EjemploDatasetSQL\obj\x86\Debug\EjemploDatasetSQL.Resources.resources
+C:\Users\toshiba\AppData\Local\Temporary Projects\EjemploDatasetSQL\obj\x86\Debug\EjemploDatasetSQL.vbproj.GenerateResource.Cache
+C:\Users\toshiba\AppData\Local\Temporary Projects\EjemploDatasetSQL\obj\x86\Debug\EjemploDatasetSQL.exe
+C:\Users\toshiba\AppData\Local\Temporary Projects\EjemploDatasetSQL\obj\x86\Debug\EjemploDatasetSQL.xml
+C:\Users\toshiba\AppData\Local\Temporary Projects\EjemploDatasetSQL\obj\x86\Debug\EjemploDatasetSQL.pdb
+C:\Users\toshiba\Documents\Visual Studio 2010\Projects\EjemploDatasetSQL\EjemploDatasetSQL\bin\Debug\EjemploDatasetSQL.exe.config
+C:\Users\toshiba\Documents\Visual Studio 2010\Projects\EjemploDatasetSQL\EjemploDatasetSQL\bin\Debug\EjemploDatasetSQL.exe
+C:\Users\toshiba\Documents\Visual Studio 2010\Projects\EjemploDatasetSQL\EjemploDatasetSQL\bin\Debug\EjemploDatasetSQL.pdb
+C:\Users\toshiba\Documents\Visual Studio 2010\Projects\EjemploDatasetSQL\EjemploDatasetSQL\bin\Debug\EjemploDatasetSQL.xml
+C:\Users\toshiba\Documents\Visual Studio 2010\Projects\EjemploDatasetSQL\EjemploDatasetSQL\bin\Debug\MySql.Data.dll
+C:\Users\toshiba\Documents\Visual Studio 2010\Projects\EjemploDatasetSQL\EjemploDatasetSQL\obj\x86\Debug\EjemploDatasetSQL.vbprojResolveAssemblyReference.cache
+C:\Users\toshiba\Documents\Visual Studio 2010\Projects\EjemploDatasetSQL\EjemploDatasetSQL\obj\x86\Debug\EjemploDatasetSQL.Resources.resources
+C:\Users\toshiba\Documents\Visual Studio 2010\Projects\EjemploDatasetSQL\EjemploDatasetSQL\obj\x86\Debug\EjemploDatasetSQL.vw_Graficos_I.resources
+C:\Users\toshiba\Documents\Visual Studio 2010\Projects\EjemploDatasetSQL\EjemploDatasetSQL\obj\x86\Debug\EjemploDatasetSQL.Dashboard.resources
+C:\Users\toshiba\Documents\Visual Studio 2010\Projects\EjemploDatasetSQL\EjemploDatasetSQL\obj\x86\Debug\EjemploDatasetSQL.vw_cargo.resources
+C:\Users\toshiba\Documents\Visual Studio 2010\Projects\EjemploDatasetSQL\EjemploDatasetSQL\obj\x86\Debug\EjemploDatasetSQL.vw_cliente.resources
+C:\Users\toshiba\Documents\Visual Studio 2010\Projects\EjemploDatasetSQL\EjemploDatasetSQL\obj\x86\Debug\EjemploDatasetSQL.vw_material.resources
+C:\Users\toshiba\Documents\Visual Studio 2010\Projects\EjemploDatasetSQL\EjemploDatasetSQL\obj\x86\Debug\EjemploDatasetSQL.vw_undmedida.resources
+C:\Users\toshiba\Documents\Visual Studio 2010\Projects\EjemploDatasetSQL\EjemploDatasetSQL\obj\x86\Debug\EjemploDatasetSQL.vbproj.GenerateResource.Cache
+C:\Users\toshiba\Documents\Visual Studio 2010\Projects\EjemploDatasetSQL\EjemploDatasetSQL\obj\x86\Debug\EjemploDatasetSQL.exe
+C:\Users\toshiba\Documents\Visual Studio 2010\Projects\EjemploDatasetSQL\EjemploDatasetSQL\obj\x86\Debug\EjemploDatasetSQL.xml
+C:\Users\toshiba\Documents\Visual Studio 2010\Projects\EjemploDatasetSQL\EjemploDatasetSQL\obj\x86\Debug\EjemploDatasetSQL.pdb
+C:\Users\toshiba\Documents\Visual Studio 2010\Projects\EjemploDatasetSQL\EjemploDatasetSQL\obj\x86\Debug\EjemploDatasetSQL.vw_proyecto.resources
+C:\Users\toshiba\Documents\Visual Studio 2010\Projects\EjemploDatasetSQL\EjemploDatasetSQL\obj\x86\Debug\EjemploDatasetSQL.vw_empleadoDetalle.resources
+C:\Users\toshiba\Documents\Visual Studio 2010\Projects\EjemploDatasetSQL\EjemploDatasetSQL\obj\x86\Debug\EjemploDatasetSQL.vw_cliente2.resources
+C:\Users\toshiba\Documents\Visual Studio 2010\Projects\EjemploDatasetSQL\EjemploDatasetSQL\obj\x86\Debug\EjemploDatasetSQL.vws_telefono.resources
